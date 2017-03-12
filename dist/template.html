@@ -1,0 +1,34 @@
+<div class="cb-countdown-date" bindonce="">
+    <div class="countdown-block">
+        <div class="countdown-item countdown-days">
+            <span>{{days}}</span>
+        </div>
+        <div ng-if="showLabels" class="countdown-label text-uppercase">
+            <span bo-text="'cbLabels.commons.days' | translate "></span>
+        </div>
+    </div>
+    <div class="countdown-block">
+        <div class="countdown-item countdown-hours">
+            <span>{{hours}}</span>
+        </div>
+        <div ng-if="showLabels" class="countdown-label text-uppercase">
+            <span bo-text="'cbLabels.commons.hours' | translate "></span>
+        </div>
+    </div>
+    <div class="countdown-block">
+        <div class="countdown-item countdown-minutes">
+            <span>{{minutes}}</span>
+        </div>
+        <div ng-if="showLabels" class="countdown-label text-uppercase">
+            <span bo-text="'cbLabels.commons.minutes' | translate "></span>
+        </div>
+    </div>
+    <div class="countdown-block" bo-if="showSeconds">
+        <div class="countdown-item countdown-seconds">
+            <span>{{seconds}}</span>
+        </div>
+        <div ng-if="showLabels" class="countdown-label text-uppercase">
+            <span bo-text="'cbLabels.commons.seconds' | translate "></span>
+        </div>
+    </div>
+</div>

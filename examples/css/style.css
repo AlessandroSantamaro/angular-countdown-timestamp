@@ -1,0 +1,32 @@
+.countdown-block {
+    display: inline-block
+}
+
+.countdown-block .countdown-item {
+    width: 46px;
+    min-height: 28px;
+    margin: 5px 5px 0px 5px;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.countdown-block .countdown-item span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.countdown-block .countdown-label {
+    margin: 0px 5px 5px 5px;
+    background-color: #55CCF7;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-style: none solid solid solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+}
